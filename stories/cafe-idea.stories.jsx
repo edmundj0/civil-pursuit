@@ -1,5 +1,5 @@
 import React from 'react';
-import Common from './common';
+import common from './common';
 
 import CafeIdea from "../app/components/type-components/cafe-idea"
 // import AskItemWhy from "../app/components/type-components/ask-item-why"
@@ -9,8 +9,8 @@ export default {
     component: CafeIdea,
     decorators: [
         Story => (
-            <div style={Common.outerStyle}>
-                {Common.outerSetup()}
+            <div style={common.outerStyle}>
+                {common.outerSetup()}
                 <Story />
             </div>
         )
@@ -33,6 +33,11 @@ const ideaType = {
     "referenceMethod": 'disabled'
 }
 
-export const CafeIdeaStory = () => (
-    <div>test</div>
-  );
+export const CafeIdeaStorys = {
+    args: {
+        item: {
+            subject: 'Test',
+            description: 'test'
+        }
+    }
+}

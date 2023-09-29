@@ -148,6 +148,7 @@
     "@storybook/react": "^7.3.2",
     "@storybook/react-webpack5": "^7.3.2",
     "@storybook/testing-library": "^0.2.0",
+    "circular-dependency-plugin": "^5.2.2",
     "concurrently": "3.6.1",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.7.0",
